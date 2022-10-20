@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="img/LogoFavicon.PNG" type="image/x-icon">
+    <title>Center Music</title>
+</head>
+<body class="modo-noturno">
+    <header>
+        <div class="container">
+            <div class="menu-flex">
+                <img class="logo" src="img/Logo.svg" alt="Logo Center Music">
+                <nav class="menu-nav">
+                    <ul class="secao-categoria">
+                        <li><a href="#produtos">Todos</a></li>
+                        <li><a href="#">Cordas</a></li>
+                        <li><a href="#">Teclado</a></li>
+                        <li><a href="#">Microfone</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="vitrine">
+        <div class="container">  
+            <div class="main-flex">
+                <section id="products"> 
+                <ul class="products-card">
+                    
+                </ul> 
+                </section>
+                <section>
+                    <aside id="shopping-cart">
+                        <div class="container-cart">
+                            <input type="text" placeholder="Digite aqui sua pesquisa">
+                            <button class="button-cart">Pesquisar</button>
+                            <h3>Carrinho de compras</h3>
+                            <ul class="shopping-cart-full">
+                                <div class="empty-shopping-cart">
+                                    <h2>Carrinho Vazio</h2>
+                                    <p>Adicione Itens</p>
+                                </div>
+                            </ul> 
+                            <div class="value-table">
+                                <p>Quantidade:</p>
+                                    <span class="value-q">0</span>
+                                <p>Total:</p>
+                                <span class="value-p">R$</span>
+                            </div>
+                        </div>
+                    </aside>
+                </section>
+            </div>  
+            <audio src="song/(FREE) Lo-fi Type Beat - Like a Bridge (320 kbps).mp3" autoplay controls></audio>
+        </div>
+    </main>
+    <script src="js/database.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
